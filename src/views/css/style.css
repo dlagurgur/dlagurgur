@@ -1,0 +1,19 @@
+.worksTransition-appear{
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.worksTransition-appear.worksTransition-appear-active{
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all .4s ease-in-out;
+}
+
+.wordlimit100 {
+  display:block;
+  text-overflow:ellipsis;
+white-space:nowrap;
+word-wrap:normal;
+width:200px;
+overflow:hidden;
+}
